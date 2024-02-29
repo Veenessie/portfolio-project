@@ -12,12 +12,6 @@ h1 {
   font-weight: 700;
 }
 
-h2,
-h3 {
-  font-family: var(--primary-font);
-  color: var(--font-colour);
-}
-
 .hero {
   text-align: center;
   padding: 120px;
@@ -28,12 +22,16 @@ h3 {
   font-size: 36px;
   line-height: 54px;
   font-weight: bold;
+  font-family: var(--primary-font);
+  color: var(--font-colour);
 }
 
 .hero h3 {
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
+  font-family: var(--primary-font);
+  color: var(--font-colour);
 }
 
 .hero a {
@@ -43,4 +41,64 @@ h3 {
   font-family: var(--primary-font);
   color: white;
   text-decoration: none;
+}
+
+.body-header {
+  font-family: var(--primary-font);
+}
+
+.project-container h2 {
+  font-family: var(--heading-font);
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 30px;
+  margin-top: 110px;
+}
+
+.project-container p {
+  font-family: var(--primary-font);
+  color: var(--font-colour);
+  opacity: 0.7;
+  line-height: 30px;
+}
+
+.project-container a {
+  padding: 18px 30px;
+  border-radius: 4px;
+  font-family: var(--primary-font);
+  text-decoration: none;
+  border: 1px solid var(--link-colour);
+  color: var(--link-colour);
+}
+
+.project-container .project-button {
+  margin-top: 50px;
+}
+
+.project-description {
+  padding: 60px 45px;
+}
+
+@media (max-width: 991px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  .hero h2 {
+    font-size: 17px;
+    margin: 0;
+  }
+
+  .hero h3 {
+    font-size: 12px;
+  }
+
+  .project-description {
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .project-description h2 {
+    font-size: 30px;
+  }
 }
