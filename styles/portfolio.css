@@ -112,6 +112,15 @@ header {
   border-radius: 4px;
 }
 
+.content a {
+  text-decoration: none;
+  color: var(--link-colour);
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 991px) {
   h1,
   .content h1 {
@@ -145,5 +154,9 @@ header {
     margin-top: 60px;
     padding: 20px;
     border-radius: 4px;
+  }
+
+  .content h3 {
+    font-size: 18px;
   }
 }
