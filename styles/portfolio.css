@@ -45,6 +45,7 @@ h1 {
 
 .body-header {
   font-family: var(--primary-font);
+  margin: 40px 0;
 }
 
 .project-container h2 {
@@ -93,12 +94,15 @@ h1 {
     font-size: 12px;
   }
 
-  .project-description {
-    padding: 0 20px;
-    text-align: center;
+  .project-description h2 {
+    padding: 0;
   }
 
   .project-description h2 {
     font-size: 30px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
   }
 }
