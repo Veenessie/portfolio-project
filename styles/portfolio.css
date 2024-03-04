@@ -145,13 +145,61 @@ header {
   border-radius: 4px;
 }
 
-.social-link {
+.contact-social-link {
   text-decoration: none;
   color: var(--link-colour);
 }
 
 .content a:hover {
   text-decoration: underline;
+}
+
+footer .work-enquiry-box {
+  background: var(--branding-colour);
+  padding: 30px 60px;
+  margin: 100px 0;
+  border-radius: 4px;
+}
+
+footer h4 {
+  font-family: var(--heading-font);
+  font-size: 48px;
+  font-weight: 700;
+}
+
+footer p {
+  font-family: var(--primary-font);
+  color: var(--font-colour);
+  opacity: 0.7;
+}
+
+footer a {
+  display: block;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  font-family: var(--primary-font);
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+
+footer a:hover {
+  color: var(--link-colour);
+}
+
+footer .social-links {
+  color: var(--link-colour);
+  font-size: 18px;
+  padding: 10px 14px;
+  margin: 20px;
+  background: var(--branding-colour);
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links:hover {
+  background: var(--link-colour);
+  color: white;
 }
 
 @media (max-width: 991px) {
