@@ -6,6 +6,39 @@
   --link-colour: #6c63ff;
 }
 
+nav {
+  padding: 20px;
+}
+
+nav img {
+  max-height: 35px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  padding-right: 10px;
+  line-height: 42px;
+  transition: all 100ms ease-in-out;
+  font-family: var(--primary-font);
+}
+
+nav a {
+  text-decoration: none;
+  opacity: 0.7;
+  color: var(--font-colour);
+}
+nav .active {
+  color: var(--link-colour);
+}
+
+nav li a:hover {
+  color: var(--link-colour);
+}
+
 h1 {
   font-family: var(--heading-font);
   font-size: 96px;
@@ -112,7 +145,7 @@ header {
   border-radius: 4px;
 }
 
-.content a {
+.social-link {
   text-decoration: none;
   color: var(--link-colour);
 }
@@ -133,6 +166,11 @@ header {
   }
 
   .hero h3 {
+    font-size: 12px;
+  }
+
+  .primary-button,
+  .project-button {
     font-size: 12px;
   }
 
