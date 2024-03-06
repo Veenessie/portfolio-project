@@ -118,8 +118,8 @@ header {
 }
 
 .content {
-  margin: 0 10px 20px 10px;
   text-align: center;
+  margin-bottom: 20px;
 }
 .content h1 {
   font-size: 64px;
@@ -209,7 +209,7 @@ footer .social-links:hover {
 @media (max-width: 991px) {
   h1,
   .content h1 {
-    font-size: 35px;
+    font-size: 28px;
   }
 
   .hero h2 {
