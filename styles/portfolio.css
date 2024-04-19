@@ -1,9 +1,9 @@
 :root {
   --heading-font: "Playfair Display", serif;
   --primary-font: "Poppins", sans-serif;
-  --branding-colour: #f9f7fe;
+  --branding-colour: #f6f5f6;
   --font-colour: #272142;
-  --link-colour: #6c63ff;
+  --link-colour: #cde1b9;
 }
 
 nav {
