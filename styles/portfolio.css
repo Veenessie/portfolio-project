@@ -158,6 +158,14 @@ header {
   text-decoration: underline;
 }
 
+.work-img {
+  transition: all 150ms ease-in-out;
+}
+
+.work-img:hover {
+  transform: scale(1.1);
+}
+
 footer .work-enquiry-box {
   background: var(--branding-colour);
   padding: 30px 60px;
